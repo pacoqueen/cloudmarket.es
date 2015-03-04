@@ -243,6 +243,7 @@ WSGI_APPLICATION = '%s.wsgi.application' % SITE_NAME
 
 ########## SOUTH CONFIGURATION
 # See: http://south.readthedocs.org/en/latest/installation.html#configuring-your-django-installation
+## Para Django 1.7 esto no sirve. Lo comento por si necesito reactivarlo.
 #INSTALLED_APPS += (
     # Database migration helpers:
 #    'south',
