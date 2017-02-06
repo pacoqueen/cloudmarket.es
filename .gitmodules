@@ -1,0 +1,3 @@
+[submodule "cloudmarket"]
+	path = cloudmarket
+	url = git@github.com:pacoqueen/cloudmarket.git
