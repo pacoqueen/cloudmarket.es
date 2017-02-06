@@ -4,6 +4,6 @@
 Paquetes a instalar en Debian/Ubuntu:
 -------------------------------------
 
-* python-django
-* python-django-debug-toolbar
-* python-django-south
+* python3-django
+* python3-cookiecutter
+* cookiecutter
