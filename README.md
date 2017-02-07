@@ -12,13 +12,13 @@ Paquetes a instalar en Debian/Ubuntu:
 
 Documentación:
 --------------
-* Repositorio en githu: [cloudmarket.es](https://github.com/pacoqueen/cloudmarket.es)
+* Repositorio en github: [cloudmarket.es](https://github.com/pacoqueen/cloudmarket.es)
 * Submódulo proyecto Django 1.10: [cloudmarket](https://github.com/pacoqueen/cloudmarket)
-* [Cookiecutter](https://github.com/pydanny/cookiecutter-django)
-* [Hostinet](https://www.hostinet.com/central/producto/103672/)
-* [PointDNS](https://app.pointhq.com/zones/181000/records)
-* [Mailgun](https://mailgun.com/app/domains/mg.cloudmarket.es)
-* [Heroku](https://dashboard.heroku.com/apps/qcloudmarket)
-* [Sentry](https://sentry.io/app35222207herokucom/)
-* [Cookiecutter deployment on Heroku](http://cookiecutter-django.readthedocs.io/en/latest/deployment-on-heroku.html)
-* [WhiteNoise](http://whitenoise.evans.io/en/stable/django.html)
+* Plantilla proyecto: [Cookiecutter](https://github.com/pydanny/cookiecutter-django)
+* Dominio: [Hostinet](https://www.hostinet.com/central/producto/103672/)
+* Redirección DNS: [PointDNS](https://app.pointhq.com/zones/181000/records)
+* Servidor de correo: [Mailgun](https://mailgun.com/app/domains/mg.cloudmarket.es)
+* Alojamiento y cloud computing: [Heroku](https://dashboard.heroku.com/apps/qcloudmarket)
+* Logs: [Sentry](https://sentry.io/app35222207herokucom/)
+* Variables de entorno a establecer en heroku: [Cookiecutter deployment on Heroku](http://cookiecutter-django.readthedocs.io/en/latest/deployment-on-heroku.html)
+* Almacenamiento ficheros estáticos (se puede activar durante la creación del proyecto con Cookiecutter): [WhiteNoise](http://whitenoise.evans.io/en/stable/django.html)
