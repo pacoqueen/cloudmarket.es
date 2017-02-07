@@ -50,4 +50,4 @@ heroku run python manage.py migrate
 heroku run python manage.py check --deploy
 heroku run python manage.py createsuperuser
 ```
-20. Los errores de despliegue o ejecución se pueden ver en Sentry y con `heroku logs`.
+Los errores de despliegue o ejecución se pueden ver en Sentry y con `heroku logs`.
