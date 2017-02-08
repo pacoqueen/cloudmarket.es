@@ -19,7 +19,7 @@ Documentación:
 * Redirección DNS: [PointDNS](https://app.pointhq.com/zones/181000/records)
 * Servidor de correo: [Mailgun](https://mailgun.com/app/domains/mg.cloudmarket.es)
 * Alojamiento y cloud computing: [Heroku](https://dashboard.heroku.com/apps/qcloudmarket)
-* Logs: [Sentry](https://sentry.io/app35222207herokucom/)
+* Logs: [Sentry](https://sentry.io/q-inn/qcloudmarket/)
 * Variables de entorno a establecer en heroku: [Cookiecutter deployment on Heroku](http://cookiecutter-django.readthedocs.io/en/latest/deployment-on-heroku.html)
 * Almacenamiento ficheros estáticos (se puede activar durante la creación del proyecto con Cookiecutter): [WhiteNoise](http://whitenoise.evans.io/en/stable/django.html)
 
@@ -40,7 +40,7 @@ Step by step (ooo, baby)
 12. Agregar el repositorio `git remote` de la *app* en Heroku a cloudmarket.
 13. Establecer las variables de entorno con la CLI de heroku.
 14. Commit de cloudmarket y cloudmarket.es
-15. Si no se han creado con el despliegue, agregar los *addons* de PostgreSQL, Redis, Mailgun, PointDNS y Sentry y volver a establecer las variables de entorno si es necesario. Se puede hacer desde el terminal con, por ejemplo, `heroku addons:add sentry --app qcloudmarket`.
+15. Si no se han creado con el despliegue, agregar los *addons* de PostgreSQL, Redis, Mailgun, PointDNS y Sentry y volver a establecer las variables de entorno si es necesario. Se puede hacer desde el terminal con, por ejemplo, `heroku addons:add sentry --app qcloudmarket`. Revisar que es la cuenta gratuita con el *promocode* de cookiecutter.
 16. Cambiar las DNS del dominio para que apunten a PointDNS.
 17. Crear los registros DNS de Mailgun en PointDNS.
 18. Crear la base de datos local con `./manage.py migrate` y el superusuario con `./manage.py createsuperuser`.
